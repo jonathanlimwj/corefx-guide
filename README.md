@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ```
 Git clone https://github.com/dotnet/corefx.git
 
@@ -41,3 +42,6 @@ Cd ../corefx
 
 You can find more detailed information here:
 https://github.com/dotnet/corefx/blob/master/Documentation/project-docs/developer-guide.md
+=======
+# corefx-guide
+>>>>>>> 0910f68921adb1934477d69b9f1dc0fbc000266c
