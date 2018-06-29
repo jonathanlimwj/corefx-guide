@@ -15,7 +15,7 @@ Cd ../corefx
 
 - `build-tests.cmd`
 
-![build_tests.cmd](assets/build_tests_cmd.png)
+![build_tests.cmd](assets/build_tests_cmd.PNG)
 测试编译运行默认的设置
 
 - `Build -framework `
@@ -25,19 +25,19 @@ Cd ../corefx
 
 - `Build -os `
 
-![build_os.cmd](assets/build_os_cmd.png)  
+![build_os.cmd](assets/build_os_cmd.PNG)  
 
 此build的运行系统。默认是你的系统，可以是 `Windows_NT`, `Unix`, `Linux`, 或`OSX`. (msbuild property `OSGroup`)
 
 - `Build -debug|-release`
 
-![build_debug.cmd](assets/build_debug_cmd.png)  
+![build_debug.cmd](assets/build_debug_cmd.PNG)  
 
 选择编译器的类别。. (msbuildproperty `ConfigurationGroup`)
 
 - Build -buildArch
 
-![build_buildarch.cmd](assets/build_buildArch_cmd.png)
+![build_buildarch.cmd](assets/build_buildarch_cmd.png)
 确定构建的体系结构。 它默认为x64，但可能的值包括x64，x86，arm或arm64。 (msbuildproperty `ArchGroup`)
 
 You can find more detailed information here:
