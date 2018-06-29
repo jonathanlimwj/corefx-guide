@@ -15,29 +15,29 @@ Cd ../corefx
 
 - `build-tests.cmd`
 
-![build-tests.cmd](assets/build_tests_cmd.png)
+![build_tests.cmd](assets/build_tests_cmd.png)
 测试编译运行默认的设置
 
 - `Build -framework `
 
-![build-framework.cmd](assets/build_framework_cmd.png)
+![build_framework.cmd](assets/build_framework_cmd.png)
 此build的Framework版本。默认是`netcoreapp`但也可以是`netCoreApp`, `netFX` 或者 `UAP` (msbuild property `TargetGroup`).
 
 - `Build -os `
 
-![build-os.cmd](assets/build_os_cmd.png)  
+![build_os.cmd](assets/build_os_cmd.png)  
 
 此build的运行系统。默认是你的系统，可以是 `Windows_NT`, `Unix`, `Linux`, 或`OSX`. (msbuild property `OSGroup`)
 
 - `Build -debug|-release`
 
-![build-debug.cmd](assets/build_debug_cmd.png)  
+![build_debug.cmd](assets/build_debug_cmd.png)  
 
 选择编译器的类别。. (msbuildproperty `ConfigurationGroup`)
 
 - Build -buildArch
 
-![build-buildarch.cmd](assets/build_buildArch_cmd.png)
+![build_buildarch.cmd](assets/build_buildArch_cmd.png)
 确定构建的体系结构。 它默认为x64，但可能的值包括x64，x86，arm或arm64。 (msbuildproperty `ArchGroup`)
 
 You can find more detailed information here:
